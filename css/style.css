@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    
+}
+
+.header_wrapper{
+    display: flex;
+    align-items: center;
+    background-color: #155bd5;
+    height: 54px;
+    position: fixed;
+    width: 1570px;
+    justify-content: center;
+    gap: 5px;
+}
+
+.header_wrapper-text{
+    display: flex;
+    gap: 15px;
+}
+
+
