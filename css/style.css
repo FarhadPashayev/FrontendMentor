@@ -4,19 +4,18 @@
     box-sizing: border-box;
 }
 
-header{
-    
-}
 
 .header_wrapper{
     display: flex;
     align-items: center;
-    background-color: #155bd5;
+    background-color: rgb(63 84 162);
     height: 54px;
-    position: fixed;
-    width: 1570px;
+    width: 100%;
     justify-content: center;
     gap: 5px;
+    top: 0px;
+    left: 0px;
+    
 }
 
 .header_wrapper-text{
@@ -24,4 +23,77 @@ header{
     gap: 15px;
 }
 
+.text_color{
+    color: aliceblue;
+}
 
+.link_color{
+    color:aliceblue
+}
+
+.navbar{
+   
+    display:flex;
+    justify-content: space-around;
+    padding-top:20px ;
+    width: 100%;
+
+    
+}
+.list_flex{
+    display: flex;
+    gap: 5px;
+}
+
+.button_pro{
+    width: 40px;
+    height: 19px;
+    border: solid 1px black;
+    text-decoration: none;
+    background-color: rgb(62, 84, 163);
+    color: aliceblue;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.button_log{
+    width: 240px;
+    height: 40px;
+    border: solid 1px black;
+    text-decoration: none;
+    color: aliceblue;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    padding-top: 9px;
+    padding-left:27px;
+    background-color: black;
+    gap: 5px;
+    
+
+}
+
+.navbar_list{
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+    
+}
+
+.challenge{
+    
+}
+
+.challeng_button{
+    width: 100%;
+    height: 50px;
+    border: 0.5px solid black; 
+   
+}
+
+.challeng_button-main{
+    padding-left: 260px;
+    
+}
